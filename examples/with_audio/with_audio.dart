@@ -1,4 +1,3 @@
-// example/lib/main.dart
 import 'package:dock_bounce_icon/dock_with_audio.dart';
 import 'package:flutter/material.dart';
 
@@ -37,9 +36,6 @@ class BounceHomePage extends StatelessWidget {
           duration: const Duration(milliseconds: 600),
           soundAsset: 'sounds/heartbeat.mp3',
           bounceCount: 12,
-          /*      bounceCount: 100,
-          bounceInterval: Duration(microseconds: 150),*/ // delay between bounces
-          //    bounceOutCurve: Curves.easeOutBack,
           onBounceStart: () => debugPrint("Bounce started"),
           onBounceEnd: () => debugPrint("Bounce ended"),
           onTap: () => debugPrint("Icon tapped"),
