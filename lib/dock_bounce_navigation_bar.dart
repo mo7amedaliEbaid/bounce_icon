@@ -123,6 +123,8 @@ class DockBounceNavigationBar extends StatefulWidget {
   final Duration bounceDuration;
   final double bounceHeight;
   final int bounceCount;
+  final double bottomNavigationBarElevation;
+  final Color bottomNavigationBarColor;
   final Duration bounceInterval;
   final Curve bounceOutCurve;
 
@@ -132,6 +134,8 @@ class DockBounceNavigationBar extends StatefulWidget {
     this.bounceDuration = const Duration(milliseconds: 500),
     this.bounceHeight = 20,
     this.bounceCount = 1,
+    this.bottomNavigationBarElevation = 2,
+    this.bottomNavigationBarColor = Colors.white,
     this.bounceInterval = const Duration(milliseconds: 100),
     this.bounceOutCurve = Curves.bounceOut,
   });
@@ -183,20 +187,22 @@ class _DockBounceNavigationBarState extends State<DockBounceNavigationBar> {
     final currentPage = widget.items[_currentIndex].page;
 
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Stack(
         children: [
           Positioned.fill(child: currentPage),
           if (_isLoading)
             Positioned.fill(
               child: Container(
-                color: Colors.black.withOpacity(0.1),
+                color: Colors.white,
                 child: const Center(child: CircularProgressIndicator()),
               ),
             ),
         ],
       ),
       bottomNavigationBar: BottomAppBar(
-        elevation: 8,
+        elevation: widget.bottomNavigationBarElevation,
+        color: widget.bottomNavigationBarColor,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: List.generate(widget.items.length, (index) {

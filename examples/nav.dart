@@ -12,19 +12,26 @@ class MyApp extends StatelessWidget {
       home: DockBounceNavigationBar(
         bounceCount: 2,
         bounceHeight: 30,
+        bottomNavigationBarElevation: 0,
         items: [
           DockBounceNavigationItem(
             icon: Icon(Icons.home, color: Colors.blue),
             soundAsset: 'sounds/heartbeat.mp3',
-            page: const Center(child: Text('Home Page')),
+            page: Container(
+                color: Colors.white,
+                child: const Center(child: Text('Home Page'))),
           ),
           DockBounceNavigationItem(
-            icon: Icon(Icons.settings, color: Colors.green),
+            icon: Container(
+                color: Colors.white,
+                child: Icon(Icons.settings, color: Colors.green)),
             soundAsset: 'sounds/heartbeat.mp3',
             page: const Center(child: Text('Settings Page')),
           ),
           DockBounceNavigationItem(
-            icon: Icon(Icons.person, color: Colors.purple),
+            icon: Container(
+                color: Colors.white,
+                child: Icon(Icons.person, color: Colors.purple)),
             soundAsset: 'sounds/heartbeat.mp3',
             page: const Center(child: Text('Profile Page')),
           ),
