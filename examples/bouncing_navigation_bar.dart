@@ -1,4 +1,4 @@
-import 'package:dock_bounce_icon/dock_bounce_navigation_bar.dart';
+import 'package:dock_bounce_icon/dock_bounce.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());

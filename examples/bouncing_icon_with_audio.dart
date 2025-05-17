@@ -1,4 +1,4 @@
-import 'package:dock_bounce_icon/dock_with_audio.dart';
+import 'package:dock_bounce_icon/dock_bounce.dart';
 import 'package:flutter/material.dart';
 
 void main() {
