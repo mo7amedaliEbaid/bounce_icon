@@ -28,7 +28,7 @@ Add the following to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  dock_bounce_icon: ^0.0.1-beta.2
+  dock_bounce_icon: ^0.0.1-beta.4
 ````
 
 Then run:

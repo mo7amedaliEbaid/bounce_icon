@@ -1,7 +1,7 @@
 name: dock_bounce_icon
 description: "A Flutter package inspired by macOS dock bounce animation."
 
-version: 0.0.1-beta.3
+version: 0.0.1-beta.4
 homepage: "https://github.com/mo7amedaliEbaid/bounce_icon.git"
 
 environment:
