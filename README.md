@@ -8,7 +8,7 @@ A Flutter package inspired by the **bouncing behavior of macOS Dock icons**. Thi
 
 See it in action:
 
-[![Demo](https://img.youtube.com/vi/2a8VWyNKbmc/0.jpg)](https://www.youtube.com/watch?v=2a8VWyNKbmc)
+[![Demo](https://github.com/mo7amedaliEbaid/bounce_icon/blob/fb58944d7beaffe9ed0abee87858a06af4af22e2/assets/thumb%201.png)](https://www.youtube.com/watch?v=2a8VWyNKbmc)
 
 
 
