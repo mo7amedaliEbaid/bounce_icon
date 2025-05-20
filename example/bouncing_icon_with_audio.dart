@@ -52,7 +52,11 @@ class BounceHomePage extends StatelessWidget {
                 )
               ],
             ),
-            child: const Icon(Icons.favorite, color: Colors.red, size: 40),
+            child: const Icon(
+              Icons.favorite,
+              color: Colors.red,
+              size: 40,
+            ),
           ),
         ),
       ),
