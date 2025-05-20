@@ -6,7 +6,7 @@ A Flutter package inspired by the **bouncing behavior of macOS Dock icons**. Thi
 
 ## 📺 Demo
 
-See it in action:
+Tap to see it in action:
 
 [![Demo](https://github.com/mo7amedaliEbaid/bounce_icon/blob/fb58944d7beaffe9ed0abee87858a06af4af22e2/assets/thumb%201.png)](https://www.youtube.com/watch?v=2a8VWyNKbmc)
 
