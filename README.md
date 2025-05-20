@@ -4,7 +4,11 @@ A Flutter package inspired by the **bouncing behavior of macOS Dock icons**. Thi
 
 
 
-https://github.com/user-attachments/assets/5d318c79-ef73-4d31-ae49-5b9902ca7dd7
+## 📺 Demo
+
+See it in action:
+
+[![Demo](https://img.youtube.com/vi/2a8VWyNKbmc/0.jpg)](https://www.youtube.com/watch?v=2a8VWyNKbmc)
 
 
 
@@ -24,7 +28,7 @@ Add the following to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  dock_bounce_icon: ^0.0.1-beta.1
+  dock_bounce_icon: ^0.0.1-beta.2
 ````
 
 Then run:
